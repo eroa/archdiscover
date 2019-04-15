@@ -236,7 +236,7 @@ if [ ! -f /usr/bin/xlsx2csv ]; then
      echo
 fi
 
-if [ ! -f /usr/bin/xml_grep ]; then
+if [ ! -f /usr/bin/xgrep ]; then
      echo -e "${YELLOW}Installing xml_grep.${NC}"
      yay -S xml-twig-tools
      echo
