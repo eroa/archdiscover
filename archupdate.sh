@@ -33,7 +33,7 @@ fi
 #     exit
 #fi
 
-echo -e "${BLUE}Updating Kali.${NC}"
+echo -e "${BLUE}Updating !Kali. ArchLinux!.${NC}"
 yay -Syyuu ; echo
 
 if [ -d /opt/BloodHound/.git ]; then
